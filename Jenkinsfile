@@ -3,7 +3,7 @@ pipeline {
         kubernetes {
             inheritFrom 'jenkins-agent'
             idleMinutes 5
-            yamlFile 'build-pod.yaml'
+            yamlFile 'build-pod.yml'
             defaultContainer 'custom-agent'
         }
     }
