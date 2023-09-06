@@ -6,6 +6,6 @@ terraform {
     bucket = "raycoy-aws-deploy-jenkins"
     key    = "terraform.tfstate"
     region = "us-east-1"
-    dynamodb_table = "raycoy-aws-deploy-jenkins-lock"
+    dynamodb_table = "mikiraycoy-aws-deploy-jenkins-lock"
   }
 }
